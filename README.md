@@ -68,6 +68,6 @@ En el notebook se incluyen ejecuciones directas que trabajan con los archivos ge
 ```bash
 mpirun --allow-run-as-root -n 6 python dotplotMPISCLWeak.py
 ```
-
+Es importante destacar que, independientemente de la variante de implementación utilizada, se genera un Dotplot de dimensiones superiores a 136.000 x 136.000. Sin embargo, por razones de limitaciones computacionales, se optó por trabajar con una matriz de 20.000 x 20.000 para realizar los análisis de manera rápida y eficiente. La variable involucrada para modificar ese tamaño se llama `batch`
 
 
